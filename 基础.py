@@ -57,7 +57,7 @@ class logistic:
 
 
 
-data=pd.read_table("D:\李志鹏\python\考核\四轮\\bezdekIris.txt",header=None,sep=',')
+data=pd.read_table("\\bezdekIris.txt",header=None,sep=',')
 data.columns=['sepal length','sepal width','petal length','petal width','class']
 """
 min_max_scaler=preprocessing.MinMaxScaler()
